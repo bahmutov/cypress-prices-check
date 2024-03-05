@@ -1,8 +1,9 @@
 {
   "name": "cypress-prices-check",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Cypress example checking prices and fees",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
