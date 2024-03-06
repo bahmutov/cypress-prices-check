@@ -2,6 +2,8 @@
 
 > A Cypress example checking prices and fees
 
+Read the blog post [Check Fees And Totals Using Cypress](https://glebbahmutov.com/blog/check-fees-using-cypress/)
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2024
