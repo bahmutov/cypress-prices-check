@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <style>
+      dd {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Floating-point</h1>
+    <dl data-cy="price">
+      <dt>Price</dt>
+      <dd>$1,099.93</dd>
+    </dl>
+
+    <dl data-cy="shipping">
+      <dt>Shipping (2-day)</dt>
+      <dd>$16.94</dd>
+    </dl>
+
+    <dl data-cy="handling">
+      <dt>Handling fee</dt>
+      <dd>$30.99</dd>
+    </dl>
+
+    <dl data-cy="coupon">
+      <dt>Coupon</dt>
+      <dd>--</dd>
+    </dl>
+
+    <hr />
+    <dl data-cy="total">
+      <dt>Total</dt>
+      <dd>$1,072.86</dd>
+    </dl>
+    <script>
+      setTimeout(() => {
+        // load the coupon after a delay
+        const coupon = document.querySelector('[data-cy=coupon] dd')
+        coupon.innerText = '-$75.00'
+      }, 1000)
+    </script>
+  </body>
+</html>
