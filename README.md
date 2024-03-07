@@ -1,4 +1,4 @@
-# cypress-prices-check ![cypress version](https://img.shields.io/badge/cypress-13.6.6-brightgreen) ![cypress-map version](https://img.shields.io/badge/cypress--map-1.36.0-brightgreen)
+# cypress-prices-check [![ci](https://github.com/bahmutov/cypress-prices-check/actions/workflows/ci.yml/badge.svg)](https://github.com/bahmutov/cypress-prices-check/actions/workflows/ci.yml) ![cypress version](https://img.shields.io/badge/cypress-13.6.6-brightgreen) ![cypress-map version](https://img.shields.io/badge/cypress--map-1.36.0-brightgreen)
 
 > A Cypress example checking prices and fees
 
