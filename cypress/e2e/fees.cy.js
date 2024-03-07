@@ -89,7 +89,7 @@ it.skip('has wrong fees (cy-spok)', () => {
     )
 })
 
-Cypress.Commands.addQuery('difference', (expected) => {
+Cypress.Commands.addQuery('diff', (expected) => {
   const names = Object.keys(expected)
   return (subject) => {
     const diff = {}
@@ -111,7 +111,7 @@ it.skip('has wrong fees (custom difference)', () => {
     .map('innerText')
     // partially apply the zip callback
     .apply(Cypress._.zipObject.bind(null, names))
-    .difference({
+    .diff({
       price: '$10.99',
       shipping: '$6.99',
       handling: '$1.39',
