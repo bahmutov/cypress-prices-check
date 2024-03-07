@@ -9,6 +9,10 @@ on:
 jobs:
   badges:
     name: Badges
+    # allow the job to write the updated README file
+    # back into the repository
+    permissions:
+      contents: write
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout 🛎
