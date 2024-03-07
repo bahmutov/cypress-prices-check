@@ -23,7 +23,7 @@
     "@dinero.js/currencies": "^2.0.0-alpha.14",
     "cy-spok": "^1.6.2",
     "cypress": "^13.6.6",
-    "cypress-map": "^1.36.0",
+    "cypress-map": "^1.36.2",
     "dinero.js": "^2.0.0-alpha.14",
     "prettier": "^3.2.5"
   }
